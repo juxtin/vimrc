@@ -1,0 +1,6 @@
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "bundle/ag"]
+	path = bundle/ag
+	url = https://github.com/ggreer/the_silver_searcher
