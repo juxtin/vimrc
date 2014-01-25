@@ -2,6 +2,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 set mouse=a
+"set ttymouse=xterm2
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 set splitright
@@ -47,8 +48,8 @@ set incsearch
 set showmatch
 set hlsearch
 nnoremap <leader><space> :noh<cr>
-"nnoremap <tab> %
-"vnoremap <tab> %
+nnoremap <tab> %
+vnoremap <tab> %
 
 nnoremap j gj
 nnoremap k gk
