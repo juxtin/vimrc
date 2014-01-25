@@ -25,9 +25,6 @@
 [submodule "bundle/tlib"]
 	path = bundle/tlib
 	url = https://github.com/vim-scripts/tlib
-[submodule "bundle/vim-addon-mw-utils"]
-	path = bundle/vim-addon-mw-utils
-	url = https://github.com/vim-scripts/vim-addon-mw-utils
 [submodule "bundle/vim-classpath"]
 	path = bundle/vim-classpath
 	url = https://github.com/tpope/vim-classpath
