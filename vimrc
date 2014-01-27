@@ -1,3 +1,4 @@
+set nocompatible
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
@@ -17,7 +18,6 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-set nocompatible
 set modelines=0
 
 set encoding=utf-8
