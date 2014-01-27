@@ -3,7 +3,6 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 set mouse=a
-"set ttymouse=xterm2
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 set splitright
@@ -54,5 +53,6 @@ vnoremap <tab> %
 nnoremap j gj
 nnoremap k gk
 
+nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
 nnoremap ; :
 let g:tmuxify_custom_command = 'tmux split-window -d -l 12'
