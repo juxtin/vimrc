@@ -79,3 +79,6 @@
 [submodule "bundle/vim-niji"]
 	path = bundle/vim-niji
 	url = https://github.com/amdt/vim-niji
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab
