@@ -5,6 +5,7 @@ filetype plugin indent on
 set mouse=a
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 au FocusLost * :wa
+set clipboard=unnamed
 
 " Powerline
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
