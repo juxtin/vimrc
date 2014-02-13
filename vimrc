@@ -2,10 +2,21 @@ set nocompatible
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+
+" Mouse power!
 set mouse=a
+
+" Ctrl+P support
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" Save files on FocusLost
 au FocusLost * :wa
+
+" default register is the OS X clipboard
 set clipboard=unnamed
+
+" ,, to cycle open files
+nnoremap <leader><leader> <c-^>
 
 " Powerline
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
@@ -13,6 +24,7 @@ set t_Co=256
 set laststatus=2
 let g:Powerline_symbols = 'unicode'
 
+" Intuitive split behavior
 set splitright
 set splitbelow
 
@@ -20,6 +32,7 @@ colorscheme molokai
 
 map <C-b> :NERDTreeToggle<CR>
 
+" Use ctrl+[hjkl] to navigate splits
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
