@@ -60,7 +60,7 @@
 	url = https://github.com/rking/ag.vim
 [submodule "bundle/vim-addon-mw-utils"]
 	path = bundle/vim-addon-mw-utils
-	url = https://github.com/marcweber/vim-addon-mw-utils
+	url = https://github.com/holguinj/vim-addon-mw-utils
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround
