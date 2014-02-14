@@ -3,6 +3,12 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+" Tab wrangling
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+
 " Mouse power!
 set mouse=a
 
