@@ -97,3 +97,9 @@
 [submodule "bundle/vim-orgmode"]
 	path = bundle/vim-orgmode
 	url = https://github.com/jceb/vim-orgmode
+[submodule "bundle/vim-elixir"]
+	path = bundle/vim-elixir
+	url = https://github.com/elixir-lang/vim-elixir
+[submodule "bundle/elixir-snippets"]
+	path = bundle/elixir-snippets
+	url = https://github.com/carlosgaldino/elixir-snippets
