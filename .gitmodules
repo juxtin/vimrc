@@ -103,3 +103,6 @@
 [submodule "bundle/elixir-snippets"]
 	path = bundle/elixir-snippets
 	url = https://github.com/carlosgaldino/elixir-snippets
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown
