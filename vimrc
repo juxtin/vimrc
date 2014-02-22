@@ -9,6 +9,10 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
+" Fugitive niceness
+nnoremap <leader>gc :Gcommit<cr>
+nnoremap <leader>gs :Gstatus<cr>
+
 " Mouse power!
 set mouse=a
 
