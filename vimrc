@@ -9,6 +9,9 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
+" ,W to strip trailing whitespace
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
 " Fugitive niceness
 nnoremap <leader>gc :Gcommit<cr>
 nnoremap <leader>gs :Gstatus<cr>
