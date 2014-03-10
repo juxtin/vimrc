@@ -19,6 +19,9 @@ nnoremap <leader>gs :Gstatus<cr>
 " Mouse power!
 set mouse=a
 
+" Disable annoying markdown folding
+let g:vim_markdown_folding_disabled=1
+
 " Ctrl+P support
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
@@ -31,11 +34,16 @@ set clipboard=unnamed
 " ,, to cycle open files
 nnoremap <leader><leader> <c-^>
 
-" Powerline
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+" Powerline/Airline
+"set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim "not airline
 set t_Co=256
 set laststatus=2
-let g:Powerline_symbols = 'unicode'
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='powerlineish'
+set ttimeoutlen=50
+
+"let g:Powerline_symbols = 'unicode'
 
 " Intuitive split behavior
 set splitright
