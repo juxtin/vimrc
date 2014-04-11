@@ -19,6 +19,9 @@ nnoremap <leader>gs :Gstatus<cr>
 " Mouse power!
 set mouse=a
 
+" Wrap on words
+set wrap linebreak nolist
+
 " Disable annoying markdown folding
 let g:vim_markdown_folding_disabled=1
 
