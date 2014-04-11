@@ -109,3 +109,9 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
+[submodule "bundle/bnf-vim"]
+	path = bundle/bnf-vim
+	url = https://github.com/vim-scripts/bnf.vim
+[submodule "bundle/vim-ebnf"]
+	path = bundle/vim-ebnf
+	url = https://github.com/killphi/vim-ebnf
