@@ -115,3 +115,6 @@
 [submodule "bundle/vim-ebnf"]
 	path = bundle/vim-ebnf
 	url = https://github.com/killphi/vim-ebnf
+[submodule "bundle/tmuxline"]
+	path = bundle/tmuxline
+	url = https://github.com/edkolev/tmuxline.vim
