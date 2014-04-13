@@ -3,6 +3,12 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+" improve mouse dragging for tmux
+if &term =~ '^screen'
+  " tmux knows the extended mouse mode
+  set ttymouse=xterm2
+endif
+
 " Tab wrangling
 set tabstop=2
 set shiftwidth=2
