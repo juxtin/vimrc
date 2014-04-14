@@ -15,12 +15,15 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
-" ,W to strip trailing whitespace
+" ,W to strip trailing whitespace (doesn't work?)
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 
-" Fugitive niceness
-nnoremap <leader>gc :Gcommit<cr>
-nnoremap <leader>gs :Gstatus<cr>
+" jk, going back to normal mode
+inoremap jk <ESC>
+
+" Fugitive niceness (also not working)
+nnoremap <leader>gc :Gcommit<CR>
+nnoremap <leader>gs :Gstatus<CR>
 
 " Mouse power!
 set mouse=a
@@ -105,7 +108,7 @@ nnoremap j gj
 nnoremap k gk
 
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
-nnoremap ; :
+"nnoremap ; :
 let g:tmuxify_custom_command = 'tmux split-window -d -l 12'
 
 let g:rbpt_colorpairs = [
