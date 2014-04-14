@@ -89,7 +89,7 @@
 	path = bundle/vim-endwise
 	url = git://github.com/tpope/vim-endwise.git
 [submodule "bundle/vim-markdown-folding"]
-	path = bundle/vim-markdown-folding
+	path = bundle-disabled/vim-markdown-folding
 	url = https://github.com/nelstrom/vim-markdown-folding
 [submodule "bundle/vim-orgmode"]
 	path = bundle/vim-orgmode
