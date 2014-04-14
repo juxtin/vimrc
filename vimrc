@@ -2,6 +2,7 @@ set nocompatible
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+let mapleader = ","
 
 " improve mouse dragging for tmux
 if &term =~ '^screen'
@@ -21,9 +22,10 @@ nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 " jk, going back to normal mode
 inoremap jk <ESC>
 
-" Fugitive niceness (also not working)
-nnoremap <leader>gc :Gcommit<CR>
-nnoremap <leader>gs :Gstatus<CR>
+" Fugitive niceness
+nmap <leader>gw :Gwrite<cr>
+nmap <leader>gc :Gcommit<cr>
+nmap <leader>gs :Gstatus<cr>
 
 " Mouse power!
 set mouse=a
@@ -90,8 +92,6 @@ set laststatus=2
 set relativenumber
 set undofile
 
-let mapleader = ","
-
 nnoremap / /\v
 vnoremap / /\v
 set ignorecase
@@ -107,9 +107,13 @@ vnoremap <tab> %
 nnoremap j gj
 nnoremap k gk
 
+" Preview markdown with ,P
+" Setting default browser here
+let g:PreviewBrowsers='chrome'
+
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
 "nnoremap ; :
-let g:tmuxify_custom_command = 'tmux split-window -d -l 12'
+"let g:tmuxify_custom_command = 'tmux split-window -d -l 12'
 
 let g:rbpt_colorpairs = [
     \ ['brown',       'RoyalBlue3'],
