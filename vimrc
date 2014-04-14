@@ -22,6 +22,11 @@ nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 " jk, going back to normal mode
 inoremap jk <ESC>
 
+" weird, adding some quick movements to INSERT MODE
+inoremap II <Esc>I
+inoremap AA <Esc>A
+inoremap OO <Esc>O
+
 " Fugitive niceness
 nmap <leader>gw :Gwrite<cr>
 nmap <leader>gc :Gcommit<cr>
