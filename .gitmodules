@@ -127,3 +127,6 @@
 [submodule "bundle/vim-eunuch"]
 	path = bundle/vim-eunuch
 	url = https://github.com/tpope/vim-eunuch
+[submodule "bundle/vim-puppet-docs-preview"]
+	path = bundle/vim-puppet-docs-preview
+	url = git://github.com/holguinj/vim-puppet-docs-preview.git
