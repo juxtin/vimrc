@@ -4,6 +4,10 @@ syntax on
 filetype plugin indent on
 let mapleader = ","
 
+" Alias for previewing docs.puppetlabs.com. Probably not useful unless you
+" regularly edit puppet's documentation.
+nnoremap <leader>pp :PuppetDocsPreview <CR>
+
 " improve mouse dragging for tmux
 if &term =~ '^screen'
   " tmux knows the extended mouse mode
