@@ -127,3 +127,6 @@
 [submodule "bundle/vim-puppet-docs-preview"]
 	path = bundle/vim-puppet-docs-preview
 	url = git://github.com/holguinj/vim-puppet-docs-preview.git
+[submodule "bundle/vim-airline-themes"]
+	path = bundle/vim-airline-themes
+	url = git://github.com/vim-airline/vim-airline-themes.git
